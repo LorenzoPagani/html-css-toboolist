@@ -33,22 +33,34 @@ main {
     padding: 3%;
     border-bottom: 3px solid #F6F8F9;
 }
-.buttons input[type=button] {
+button {
     padding: 10px;
     border-radius: 5px;
     height: 40px;
     width: 100px;
-      
+    transition-duration: 0.4s;
 }
-#task {
+.task {
     border-style:  none;
     background-color: #47A9E8;
     color: white;
 }
-#section {
+.task:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #47A9E8;
+    color: #47A9E8;
+}
+.section {
     background-color: white;
     color: gray;
     border: 1px solid gray;
+}
+.section:hover {
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    color: white;
 }
 ul {
     padding: 20px;
