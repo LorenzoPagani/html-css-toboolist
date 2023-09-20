@@ -83,7 +83,7 @@ ul {
 }
 li {
     font-size: small;
-    margin: 25px;
+    margin: 25px 0;
 }
 .category {
     color: white;
